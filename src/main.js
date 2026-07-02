@@ -32,13 +32,13 @@ const services = [
     icon: 'chip',
   },
   {
-    name: 'AMG 43 / 53',
-    detail: 'Mercedes-AMG 43 and 53 platform support for tuning and performance packages.',
+    name: 'AMG Platforms',
+    detail: 'Mercedes-AMG platform support across calibration, diagnostics, and performance packages.',
     icon: 'gauge',
   },
   {
-    name: 'AMG 63',
-    detail: 'AMG 63 tuning and build support, including Stage 3 AMG content visible in the Launch Labs feed.',
+    name: 'Audi RS Platforms',
+    detail: 'Audi RS platform tuning support for sharper response, power delivery, and supporting hardware.',
     icon: 'spray',
   },
   {
@@ -146,7 +146,7 @@ const processSteps = [
 
 const sourceNotes = [
   'Profile source: @launchlabs_ public Instagram bio lists ECU & TCU Tuning, Premium Maintenance, Performance Parts, and Unbeatable quality WORLDWIDE.',
-  'Visible profile highlights include In House Unlock, Aston Martin, Lamborghini, Porsche, BMW/M, Tunes, B58, AMG 43/53, and AMG 63.',
+  'Visible profile highlights include In House Unlock, Aston Martin, Lamborghini, Porsche, BMW/M, Tunes, B58, AMG platforms, and Audi RS platforms.',
   'Profile snapshot used during conversion: 2,012 followers and 31 following.',
   'A public Launch Labs reel says in-house ECU unlocks are available in Houston, Texas; Villa Park, Illinois; Naples, Florida; and Boise, Idaho.',
 ];
