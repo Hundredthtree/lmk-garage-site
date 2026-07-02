@@ -2,152 +2,153 @@ import './styles.css';
 
 const services = [
   {
-    name: 'Performance Tuning',
-    detail: 'Stage 1, Stage 2, Stage 3, flex fuel, flame features, drivability, and custom calibration work.',
+    name: 'ECU & TCU Tuning',
+    detail: 'Custom calibration work for sharper power delivery, drivability, transmission behavior, and platform-specific performance.',
     icon: 'gauge',
   },
   {
-    name: 'ECU Unlocks',
-    detail: 'Same-day in-house ECU unlock support promoted through Launch Labs appointments.',
+    name: 'In-House ECU Unlocks',
+    detail: 'Same-day ECU unlock support with an average one-hour turnaround promoted across Launch Labs locations.',
     icon: 'chip',
   },
   {
-    name: 'Wraps',
-    detail: 'Color changes, exterior styling, and full appearance transformations.',
-    icon: 'wrap',
-  },
-  {
-    name: 'Powder Coating',
-    detail: 'Wheel and component finishing with a cleaner, more durable look.',
-    icon: 'spray',
-  },
-  {
-    name: 'Wheels & Tires',
-    detail: 'Wheel repair, fitment, tire setups, lowering springs, and alignment support.',
-    icon: 'wheel',
-  },
-  {
-    name: 'Starlight Headliners',
-    detail: 'Interior atmosphere upgrades for custom luxury builds.',
+    name: 'Stage 1 / 2 / 3',
+    detail: 'Launch Labs custom Stage 1, Stage 2, and Stage 3 tuning paths for street-focused and build-focused cars.',
     icon: 'spark',
   },
   {
-    name: 'Tints',
-    detail: 'Privacy, heat rejection, and clean exterior finishing.',
-    icon: 'tint',
-  },
-  {
-    name: 'Inspections',
-    detail: 'Diagnostics, leak repair, maintenance checks, and road-ready validation.',
+    name: 'Premium Maintenance',
+    detail: 'Maintenance support built around performance cars before, during, and after calibration work.',
     icon: 'check',
   },
   {
-    name: 'Detailing',
-    detail: 'Interior and exterior details, paint correction, and final delivery prep.',
+    name: 'Performance Parts',
+    detail: 'Part pairing and install planning for power, response, cooling, exhaust flow, and supporting hardware.',
+    icon: 'wheel',
+  },
+  {
+    name: 'BMW / M Platforms',
+    detail: 'BMW and M-platform tuning focus, including B58 content highlighted on the Launch Labs profile.',
+    icon: 'chip',
+  },
+  {
+    name: 'AMG 43 / 53',
+    detail: 'Mercedes-AMG 43 and 53 platform support for tuning and performance packages.',
+    icon: 'gauge',
+  },
+  {
+    name: 'AMG 63',
+    detail: 'AMG 63 tuning and build support, including Stage 3 AMG content visible in the Launch Labs feed.',
+    icon: 'spray',
+  },
+  {
+    name: 'Diagnostics',
+    detail: 'Pre-tune checks, issue isolation, scan support, and validation before the car leaves.',
     icon: 'shine',
   },
   {
-    name: 'Enclosed Transport',
-    detail: 'Local and nationwide transport for high-value vehicles.',
+    name: 'Worldwide Quality',
+    detail: 'The Launch Labs profile positions the shop around unbeatable quality for performance customers worldwide.',
     icon: 'truck',
   },
 ];
 
 const builds = [
   {
-    title: 'McLaren 720S',
-    subtitle: 'Stage 2 tuning package',
-    category: 'Tuning',
-    image: '/media/build-mclaren-720s.jpg',
-    href: 'https://www.instagram.com/p/DQu2K4JD0H4/',
-    copy:
-      'Stage 2 tuning with optimized engine performance, sharper throttle response, and a calibrated flame feature.',
-  },
-  {
-    title: 'Corvette Z06',
-    subtitle: 'F1 exhaust installation',
-    category: 'Exhaust',
-    image: '/media/hero-z06-f1-exhaust.jpg',
-    href: 'https://www.instagram.com/reel/DaQ6FcGBFRb/',
-    copy:
-      'Full F1 exhaust system installation built for an aggressive wide-open-throttle tone and refined normal driving.',
-  },
-  {
-    title: 'Same-Day BMW',
-    subtitle: 'ECU unlocks',
+    title: 'In-House Unlock',
+    subtitle: 'ECU unlock and full build',
     category: 'ECU',
-    image: '/media/build-ecu-unlock.jpg',
-    href: 'https://www.instagram.com/reel/DaTQOioOeWu/',
+    image: '/media/launchlabs/in-house-ecu-unlock-full-build.jpg',
+    href: 'https://www.instagram.com/launchlabs_/',
     copy:
-      'In-house ECU unlocks promoted with an average one-hour turnaround through Launch Labs appointments.',
+      'Launch Labs post content highlights in-house ECU unlock work paired with a full build path.',
   },
   {
-    title: 'Mercedes C63 / CLS63',
-    subtitle: 'Stage 3 builds',
-    category: 'Build',
-    image: '/media/build-stage3-mercedes.jpg',
-    href: 'https://www.instagram.com/reel/DaLgtvxOl5O/',
+    title: 'Same-Day Unlock',
+    subtitle: 'One-hour average turnaround',
+    category: 'Unlock',
+    image: '/media/launchlabs/same-day-ecu-unlock.jpg',
+    href: 'https://www.instagram.com/launchlabs_/',
     copy:
-      'C63 S AMG and CLS63 S AMG builds with upgraded turbochargers, built engine work, built transmission, and ethanol sensor support.',
+      'Public Launch Labs graphics promote same-day in-house ECU unlocks with an average one-hour turnaround.',
   },
   {
-    title: 'Dravit Grey G82 M4',
-    subtitle: 'Carbon and exhaust transformation',
-    category: 'Build',
-    image: '/media/build-bmw-m4.jpg',
-    href: 'https://www.instagram.com/reel/DZxb3YguZXm/',
+    title: 'Power Package',
+    subtitle: 'More power, better deal',
+    category: 'Offer',
+    image: '/media/launchlabs/performance-package.jpg',
+    href: 'https://www.instagram.com/launchlabs_/',
     copy:
-      'Carbon fiber overhaul, midpipe, downpipes, and custom tuning for a sharper G82 M4 presence.',
+      'Launch Labs offer creative promotes custom Stage 1 or Stage 2 tune packages with ECU unlock savings.',
   },
   {
-    title: 'Porsche 718',
-    subtitle: 'Exhaust, diffuser, and detail',
-    category: 'Exhaust',
-    image: '/media/build-porsche-718.jpg',
-    href: 'https://www.instagram.com/p/DKx7XRlAOJ7/',
+    title: 'Stage 3 AMGs',
+    subtitle: 'Mercedes-AMG build content',
+    category: 'AMG',
+    image: '/media/launchlabs/stage-3-amgs.jpg',
+    href: 'https://www.instagram.com/launchlabs_/',
     copy:
-      'Custom exhaust and diffuser work finished with a complimentary interior and exterior detail.',
+      'Launch Labs feed content includes Stage 3 AMG creative aimed at serious Mercedes performance work.',
   },
   {
-    title: 'Huracan',
-    subtitle: 'Enclosed transport',
-    category: 'Transport',
-    image: '/media/build-huracan-transport.jpg',
-    href: 'https://www.instagram.com/p/DOl5SGrkc6K/',
+    title: 'BMW / M Focus',
+    subtitle: 'Tuning platform highlights',
+    category: 'BMW',
+    image: '/media/launchlabs/amg-wheel-sedan.jpg',
+    href: 'https://www.instagram.com/launchlabs_/',
     copy:
-      'Enclosed trailer transport offered for local and nationwide vehicle moves.',
+      'The profile highlights BMW/M and B58 content as core Launch Labs tuning categories.',
   },
   {
-    title: 'G8X Duo',
-    subtitle: 'Exterior and performance work',
-    category: 'Appearance',
-    image: '/media/build-g8x-duo.jpg',
-    href: 'https://www.instagram.com/p/DZGJumZAc-S/',
+    title: 'Performance Shop',
+    subtitle: 'Houston, Villa Park, Naples, Boise',
+    category: 'Shop',
+    image: '/media/launchlabs/shop-car.jpg',
+    href: 'https://www.instagram.com/launchlabs_/',
     copy:
-      'Performance and appearance upgrades with carbon fiber, lowering springs, and handling-focused setup work.',
+      'A public Launch Labs reel lists in-house ECU unlock locations in Houston, Villa Park, Naples, and Boise.',
   },
   {
-    title: 'AMG E63 S',
-    subtitle: 'Leak repair and Stage 2',
-    category: 'Diagnostics',
-    image: '/media/build-e63-stage2.jpg',
-    href: 'https://www.instagram.com/p/DXuZ3ynESrG/',
+    title: 'Aston / Lambo',
+    subtitle: 'Exotic platform highlights',
+    category: 'Exotics',
+    image: '/media/launchlabs/launch-reel-feb.jpg',
+    href: 'https://www.instagram.com/launchlabs_/',
     copy:
-      'Coolant leak diagnosis and repair paired with Stage 2 tuning and upgraded performance parts.',
+      'Launch Labs profile highlights include Aston Martin and Lamborghini platform categories.',
+  },
+  {
+    title: 'Porsche Support',
+    subtitle: 'Performance platform category',
+    category: 'Porsche',
+    image: '/media/launchlabs/launch-reel-aug.jpg',
+    href: 'https://www.instagram.com/launchlabs_/',
+    copy:
+      'Porsche appears as a public profile highlight alongside the shop performance categories.',
+  },
+  {
+    title: 'TCU Calibration',
+    subtitle: 'Transmission behavior and response',
+    category: 'TCU',
+    image: '/media/launchlabs/in-house-ecu-unlock-full-build.jpg',
+    href: 'https://www.instagram.com/launchlabs_/',
+    copy:
+      'The Launch Labs bio explicitly positions the brand around ECU and TCU tuning.',
   },
 ];
 
 const processSteps = [
-  ['01', 'Diagnose', 'Inspect, scan, and road test to define the right plan.'],
-  ['02', 'Build', 'Install the right parts with clean, documented workmanship.'],
-  ['03', 'Test', 'Tune, verify, and validate the result before handoff.'],
-  ['04', 'Deliver', 'Walk through the finished work and get the car road-ready.'],
+  ['01', 'Inspect', 'Check the vehicle, current mods, goals, and required unlock or maintenance path.'],
+  ['02', 'Unlock', 'Handle in-house ECU unlock support when the platform requires it.'],
+  ['03', 'Tune', 'Build the right ECU or TCU calibration around the car and hardware.'],
+  ['04', 'Validate', 'Road test, scan, and confirm the car is ready before handoff.'],
 ];
 
 const sourceNotes = [
-  'Profile source: @lmkgarage public Instagram bio lists wraps, powder coating, wheels, tires, starlight headliners, tints, tuning, performance, inspections, detailing, and more.',
-  'Recent post source: Z06 F1 exhaust, same-day ECU unlocks, McLaren 720S Stage 2 tuning, Mercedes Stage 3 builds, G82 M4 transformation, Porsche 718 exhaust and diffuser, Huracan enclosed transport.',
-  'Profile snapshot used during build: 1,663 followers, 20 following, 149 posts.',
+  'Profile source: @launchlabs_ public Instagram bio lists ECU & TCU Tuning, Premium Maintenance, Performance Parts, and Unbeatable quality WORLDWIDE.',
+  'Visible profile highlights include In House Unlock, Aston Martin, Lamborghini, Porsche, BMW/M, Tunes, B58, AMG 43/53, and AMG 63.',
+  'Profile snapshot used during conversion: 2,012 followers and 31 following.',
+  'A public Launch Labs reel says in-house ECU unlocks are available in Houston, Texas; Villa Park, Illinois; Naples, Florida; and Boise, Idaho.',
 ];
 
 function icon(name) {
@@ -186,9 +187,9 @@ function render() {
   const app = document.querySelector('#app');
   app.innerHTML = `
     <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="LMK Garage home">
-        <span class="brand-main">LMK</span>
-        <span class="brand-sub">Garage</span>
+      <a class="brand" href="#top" aria-label="Launch Labs home">
+        <span class="brand-main">Launch</span>
+        <span class="brand-sub">Labs</span>
       </a>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
         <span></span><span></span>
@@ -199,7 +200,7 @@ function render() {
         <a href="#process">Process</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="header-social" href="https://www.instagram.com/lmkgarage/" target="_blank" rel="noreferrer">@lmkgarage</a>
+      <a class="header-social" href="https://www.instagram.com/launchlabs_/" target="_blank" rel="noreferrer">@launchlabs_</a>
     </header>
 
     <main id="top">
@@ -207,9 +208,9 @@ function render() {
         <div class="hero-media">
           <video
             id="hero-video"
-            aria-label="Corvette Z06 F1 exhaust hero video"
-            src="/media/hero-z06-f1-exhaust.mp4"
-            poster="/media/hero-z06-f1-exhaust.jpg"
+            aria-label="Launch Labs performance tuning hero video"
+            src="/media/launchlabs/hero-unlock.mp4"
+            poster="/media/launchlabs/in-house-ecu-unlock-full-build.jpg"
             autoplay
             muted
             loop
@@ -219,18 +220,18 @@ function render() {
         </div>
         <div class="hero-content">
           <div class="hero-text">
-            <h1 id="hero-title">Lmk Garage</h1>
-            <p>Performance tuning, wraps, wheels, tires, detailing, inspections, starlight headliners, and custom builds.</p>
+            <h1 id="hero-title">Launch Labs</h1>
+            <p>ECU and TCU tuning, same-day unlocks, premium maintenance, performance parts, and platform-focused calibration.</p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#contact">Book a build</a>
-              <a class="button button-secondary" href="#builds">View recent work</a>
+              <a class="button button-primary" href="#contact">Book a tune</a>
+              <a class="button button-secondary" href="#builds">View performance work</a>
             </div>
           </div>
           <div class="hero-panel" aria-label="Instagram profile snapshot">
-            <img src="/media/lmk-profile.jpg" alt="LMK Garage Instagram profile image" />
+            <img src="/media/launchlabs/profile.jpg" alt="Launch Labs Instagram profile image" />
             <div>
-              <strong>Full auto shop</strong>
-              <span>149 posts from @lmkgarage</span>
+              <strong>ECU & TCU tuning</strong>
+              <span>2,012 followers from @launchlabs_</span>
             </div>
           </div>
         </div>
@@ -238,10 +239,10 @@ function render() {
 
       <section class="section intro-band" aria-label="Profile details">
         <div class="intro-line">
-          <span>Automotive Repair Shop</span>
-          <span>1,663 followers</span>
-          <span>20 following</span>
-          <span>@launchlabs_ appointments</span>
+          <span>ECU & TCU Tuning</span>
+          <span>2,012 followers</span>
+          <span>31 following</span>
+          <span>4 unlock locations</span>
         </div>
       </section>
 
@@ -249,11 +250,11 @@ function render() {
         <div class="section-head split">
           <div>
             <p class="section-pretitle">What We Do</p>
-            <h2 id="services-title">Precision work across the whole car.</h2>
+            <h2 id="services-title">Calibration, unlocks, and performance support.</h2>
           </div>
           <p>
-            LMK Garage presents itself as a full auto shop: tuning and performance, appearance upgrades,
-            wheel and tire work, inspections, detailing, and enclosed transport.
+            Launch Labs is positioned around ECU and TCU tuning, premium maintenance, performance parts,
+            same-day unlocks, and platform-specific performance work.
           </p>
         </div>
         <div class="service-rail">
@@ -275,8 +276,8 @@ function render() {
 
       <section class="section process-section" id="process" aria-labelledby="process-title">
         <div class="section-head split">
-          <h2 id="process-title">From quote to road-ready.</h2>
-          <p>Clear intake, focused workmanship, final testing, and delivery with the build goals documented.</p>
+          <h2 id="process-title">From unlock to validated tune.</h2>
+          <p>Clear intake, platform-aware tuning, maintenance checks, and final validation before handoff.</p>
         </div>
         <div class="process-grid">
           ${processSteps
@@ -296,12 +297,12 @@ function render() {
       <section class="section builds-section" id="builds" aria-labelledby="builds-title">
         <div class="section-head builds-head">
           <div>
-            <p class="section-pretitle">LMK Garage</p>
+            <p class="section-pretitle">Launch Labs</p>
             <h2 id="builds-title">Recent builds</h2>
-            <p>Real project content pulled from public @lmkgarage posts and captions.</p>
+            <p>Real tuning, unlock, and performance content pulled from public @launchlabs_ posts and profile details.</p>
           </div>
           <div class="build-actions">
-            <a class="button button-primary compact" href="https://www.instagram.com/lmkgarage/" target="_blank" rel="noreferrer">Open Instagram</a>
+            <a class="button button-primary compact" href="https://www.instagram.com/launchlabs_/" target="_blank" rel="noreferrer">Open Instagram</a>
             <button class="button button-secondary compact" type="button" data-first-build>See build details</button>
           </div>
         </div>
@@ -313,7 +314,7 @@ function render() {
       <section class="section source-section" aria-labelledby="source-title">
         <div>
           <p class="section-pretitle">Source-backed content</p>
-          <h2 id="source-title">Built from their Instagram feed.</h2>
+          <h2 id="source-title">Built from the Launch Labs feed.</h2>
         </div>
         <ul>
           ${sourceNotes.map((note) => `<li>${note}</li>`).join('')}
@@ -323,11 +324,11 @@ function render() {
       <section class="section contact-section" id="contact" aria-labelledby="contact-title">
         <div class="contact-hero">
           <div>
-            <p class="section-pretitle">LMK Garage</p>
-            <h2 id="contact-title">Ready for the next build?</h2>
+            <p class="section-pretitle">Launch Labs</p>
+            <h2 id="contact-title">Ready for the next tune?</h2>
             <p>
-              Send the vehicle, service need, and timeline. Their captions repeatedly direct customers
-              to DM for quotes and Launch Labs appointments.
+              Send the vehicle, current mods, service need, and timeline. Launch Labs points customers
+              to DM for tuning, unlock, maintenance, and performance appointments.
             </p>
           </div>
           <div class="contact-service-list" aria-label="Services offered">
@@ -338,7 +339,7 @@ function render() {
         <form class="quote-form" data-quote-form>
           <div class="form-title">
             <h3>Let us build the request.</h3>
-            <p>No phone number or address was present in the accessible Instagram source, so this form prepares the brief and points to Instagram DM.</p>
+            <p>This form prepares a tune brief for Launch Labs. Public reel copy lists unlock locations in Houston, Villa Park, Naples, and Boise.</p>
           </div>
           <label>
             <span>Service needed</span>
@@ -365,7 +366,7 @@ function render() {
           </label>
           <div class="form-actions">
             <button class="button button-primary" type="submit">Request a quote</button>
-            <a class="button button-secondary" href="https://www.instagram.com/lmkgarage/" target="_blank" rel="noreferrer">DM @lmkgarage</a>
+            <a class="button button-secondary" href="https://www.instagram.com/launchlabs_/" target="_blank" rel="noreferrer">DM @launchlabs_</a>
           </div>
           <p class="form-status" data-form-status aria-live="polite"></p>
         </form>
@@ -374,9 +375,9 @@ function render() {
 
     <footer class="site-footer">
       <div class="footer-brand">
-        <span class="brand-main">LMK</span>
-        <span class="brand-sub">Garage</span>
-        <p>Full auto shop. Performance driven.</p>
+        <span class="brand-main">Launch</span>
+        <span class="brand-sub">Labs</span>
+        <p>ECU and TCU tuning. Performance driven.</p>
       </div>
       <nav aria-label="Footer navigation">
         <a href="#services">Services</a>
@@ -384,7 +385,7 @@ function render() {
         <a href="#process">Process</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a href="https://www.instagram.com/lmkgarage/" target="_blank" rel="noreferrer">@lmkgarage</a>
+      <a href="https://www.instagram.com/launchlabs_/" target="_blank" rel="noreferrer">@launchlabs_</a>
     </footer>
 
     <dialog class="build-dialog" data-build-dialog>
@@ -458,7 +459,7 @@ function setupInteractions() {
     event.preventDefault();
     const data = Object.fromEntries(new FormData(form));
     const status = document.querySelector('[data-form-status]');
-    status.textContent = `Quote brief ready: ${data.service} for ${data.vehicle}. Send it to @lmkgarage with your timeline: ${data.timeline}.`;
+    status.textContent = `Tune brief ready: ${data.service} for ${data.vehicle}. Send it to @launchlabs_ with your timeline: ${data.timeline}.`;
     form.classList.add('is-complete');
   });
 

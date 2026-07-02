@@ -65,7 +65,7 @@ video {
   right: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: 170px 1fr auto;
+  grid-template-columns: 190px 1fr auto;
   align-items: center;
   gap: 24px;
   padding: 20px clamp(18px, 4vw, 58px);
@@ -101,9 +101,9 @@ video {
 .brand-main::after {
   content: "";
   display: inline-block;
-  width: 28px;
-  height: 20px;
-  margin-left: 3px;
+  width: 22px;
+  height: 16px;
+  margin-left: 5px;
   transform: skew(-18deg);
   background: var(--red);
 }
@@ -476,13 +476,13 @@ video {
   inset: 0;
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.72) 54%, rgba(0, 0, 0, 0.92)),
-    url("/media/build-shop-week.jpg") center / cover;
+    url("/media/launchlabs/performance-package.jpg") center / cover;
   filter: grayscale(1) contrast(1.28);
   opacity: 0.58;
 }
 
 .builds-section::after {
-  content: "LMK";
+  content: "LAUNCH";
   position: absolute;
   top: 34px;
   right: clamp(20px, 6vw, 96px);
@@ -680,7 +680,7 @@ video {
   padding-bottom: 0;
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.62)),
-    url("/media/build-shop-week.jpg") center / cover;
+    url("/media/launchlabs/shop-car.jpg") center / cover;
   border-top: 1px solid var(--line);
 }
 

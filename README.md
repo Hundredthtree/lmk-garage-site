@@ -1,6 +1,6 @@
-# LMK Garage Website
+# Launch Labs Website
 
-Static Vite site for LMK Garage, built from public Instagram content and local media assets.
+Static Vite site for Launch Labs, built from public Instagram profile content and local media assets.
 
 ## Scripts
 
