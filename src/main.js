@@ -211,8 +211,7 @@ function render() {
   app.innerHTML = `
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="Launch Labs home">
-        <span class="brand-main">Launch</span>
-        <span class="brand-sub">Labs</span>
+        <img src="/media/launchlabs/launch-labs-logo.png" alt="Launch Labs" />
       </a>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
         <span></span><span></span>
@@ -398,8 +397,7 @@ function render() {
 
     <footer class="site-footer">
       <div class="footer-brand">
-        <span class="brand-main">Launch</span>
-        <span class="brand-sub">Labs</span>
+        <img src="/media/launchlabs/launch-labs-logo.png" alt="Launch Labs" />
         <p>ECU and TCU tuning. Performance driven.</p>
       </div>
       <nav aria-label="Footer navigation">
