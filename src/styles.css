@@ -750,7 +750,7 @@ video {
   padding-bottom: 0;
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.58)),
-    url("/media/launchlabs/amg-wheel-sedan.jpg") center 62% / cover;
+    url("/media/launchlabs/amg-wheel-sedan-enhanced.jpg") center 58% / cover;
   border-top: 1px solid var(--line);
 }
 
